@@ -18,9 +18,9 @@ namespace JiraReporter
 	{
 		private static JiraConfiguration instance;
 		///CT
-	public string Component/s { get; set; }
-	public string CompuTec + " " + WMS + " " + version
-	public string Database + " " + Server + " Type"
+    	public string DBServerType { get; set; }
+    	public string WMSDEVComponent { get; set; }
+   	public string WMSServerVersion { get; set; }
 		///CT - END
         public string JiraProjectKey { get; set; }
         public string JiraIssueType { get; set; }
