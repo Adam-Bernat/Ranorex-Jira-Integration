@@ -138,6 +138,30 @@ namespace JiraReporter
           set { _JiraPassword = value; }
         }
         
+	        string _WMSServerVersion = "";
+        [TestVariable("2D58EEE0-06DE-4D7E-9C04-DCA5CD7A1CC2")]
+        public string WMSServerVersion
+        {
+          get { return _WMSServerVersion; }
+          set { _WMSServerVersion = value; }
+        }
+        
+        string _WMSDEVComponent = "";
+        [TestVariable("D4637164-3891-47A1-A96E-77396F53FCC3")]
+        public string WMSDEVComponent
+        {
+          get { return _WMSDEVComponent; }
+          set { _WMSDEVComponent = value; }
+        }
+        
+        string _DBServerType = "";
+        [TestVariable("D4637164-3891-47A1-A96E-77396F53FCC4")]
+        public string DBServerType
+        {
+          get { return _DBServerType; }
+          set { _DBServerType = value; }
+        }
+	
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
